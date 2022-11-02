@@ -1,0 +1,13 @@
+sum=2+5+8+11+14+…，输入正整数n，求sum的前n项和。（首项和等差可变）
+#include<stdio.h>
+#define shouxiang 2
+#define d 3
+int main()
+{
+	int n = 0;
+	int sum = 0;
+	scanf("%d", &n);
+	sum = (shouxiang + d * (n - 1) + shouxiang) * n / 2;
+	printf("%d", sum);
+	return 0;
+}

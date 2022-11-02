@@ -1,0 +1,11 @@
+输入一个华氏温度，要求输出摄氏温度。
+#include<stdio.h>
+int main()
+{
+	double x = 0;
+	scanf("%lf", &x);
+	double c = 0;
+	c = 5 * (x - 32) / 9;
+	printf("%.2lf", c);
+	return 0;
+}
